@@ -1,19 +1,19 @@
 # ProjetDataViz
-Projet de visualisation des données en Python à L3 a l'université Sorbonne Paris Nord
-Nous avons decide de mener une etude sur un fichier nomme data que nous avons scincer en 4. Ce fichier contient un nombre de 4877 ligne.
+Projet de visualisation des données en Python à L3 a l'université Sorbonne Paris Nord.
+Nous avons décidé  de mener une étude sur un fichier nomme data que nous avons scinder en 4. Ce fichier contient un nombre de 4877 lignes.
 
 
 ## Présentation de la problématique
-On va essayer de montrer l'évolution de la pollution aérienne sur la période 2012-2017
+Nous allons essayer de montrer l'évolution de la pollution aérienne sur la période 2012-2017
 
 ### Description des fichiers :
-lien de téléchargement: https://www.data.gouv.fr/fr/datasets/r/e5626b68-4615-41cb-90d0-1f825d520bd9
+lien de téléchargement : https://www.data.gouv.fr/fr/datasets/r/e5626b68-4615-41cb-90d0-1f825d520bd9
 
-Ce jeu de données contient des informations sur les principaux polluants notamment les particules en suspension (PM10, PM2,5) et le dioxyde d'azote (NO2) en microgramme par mètre cube (µg/m3) de moyenne journalière annuelle.
+Ce jeu de données contient des informations sur les principaux polluants, notamment les particules en suspension (PM10, PM2,5) et le dioxyde d'azote (NO2) en microgramme par mètre cube (µg/m3) de moyenne journalière annuelle.
 
 PM10 PM2,5: Les particules en suspension (notées « PM » en anglais pour « Particulate matter ») sont d’une manière générale les fines particules solides portées par l’eau ou solides et/ou liquides portées par l’air (Wikipédia). Chaque fichier comporte trois catégories de variables :
 
-les variables descriptives de l'établissement ; les variables rapportant les niveaux d'exposition ; une variable "geometry" correspondant à l'adresse géolocalisée de chaque établissement. Les variables descriptives des établissements sont des chaînes de caractères.
+Les variables descriptives de l'établissement ; les variables rapportant les niveaux d'exposition ; une variable "geometry" correspondant à l'adresse géolocalisée de chaque établissement. Les variables descriptives des établissements sont des chaînes de caractères.
 
 ID : l'identifiant unique de la crèche ou de l'école ; nom : le nom usuel de l'établissement dans les fichiers de référence ; CP : le code postal de l'établissement ; ville : la ville suivant la nomenclature de l'Insee ; type : la catégorie d'établissement (crèche, primaire ou secondaire). Les variables correspondant aux niveaux d'exposition suivent la nomenclature suivante : "polluant_AAAA", AAAA figurant l'année civile sur 4 chiffres. Leurs valeurs numériques sont exprimées en microgrammes par mètre cube en moyenne journalière annuelle.
 
@@ -47,14 +47,14 @@ conda install geopandas
 
 télécharger : Fiona, Pyproj, Shapely, GDAL and Geopandas wheels sur le lien : https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-Installer les fichiers.whl manuellement avec pip sur Anaconda Prompt comme suit:
+Installer les fichiers.whl manuellement avec pip sur Anaconda Prompt comme suit :
 
 pip install *.whl en l'ordre suivant : GDAL, Pyproj, Fiona, Shapely et Geopandas
 
 ## Information sur mapclassify
 mapclassify implémente une famille de schémas de classification pour les cartes choroplèthes. Il se concentre sur la détermination du nombre de classes et sur l'affectation des observations à ces classes.
 
-Pour installer taper la commande sur anaconda prompt :
+Pour installer, taper la commande sur anaconda prompt :
 
 pip install mapclassify
 
@@ -63,6 +63,6 @@ Ce jeu de données provient d'un service public certifié.
 
 Découpage départemental de la région Île-de-France.
 
-Télécharger et décompressé les fichiers geoflare des départements d'ile-de-France pour pouvoir les utiliser comme une carte de base.
+Télécharger et décompressé les fichiers geoflare des départements d'Île-de-France pour pouvoir les utiliser comme une carte de base.
 
 https://www.data.gouv.fr/fr/datasets/r/2dedae24-eb12-4a92-803d-7ceddf08baf8

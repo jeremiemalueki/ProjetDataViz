@@ -1,5 +1,5 @@
 # ProjetDataViz
-Projet de visualisation des données en Python à L3 a l'université Sorbonne Paris Nord.
+Projet de visualisation des données en Python en L3 à l'université Sorbonne Paris Nord.
 Nous avons décidé  de mener une étude sur un fichier nomme data que nous avons scinder en 4. Ce fichier contient un nombre de 4877 lignes.
 
 
